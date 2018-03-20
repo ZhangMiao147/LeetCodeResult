@@ -1,3 +1,0 @@
-INDEX VERSION 1.121+F:\LeetCodeResult\.metadata\.plugins\org.eclipse.jdt.core
-1034782605.index
-1997879533.index
