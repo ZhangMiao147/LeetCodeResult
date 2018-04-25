@@ -8,24 +8,36 @@ public class Solution {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//寻找左右对称的字串（回环字串）
-		System.out.println("babad longestPalindrome:"+longestPalindrome("babad"));
-		System.out.println("cbbd longestPalindrome:"+longestPalindrome("cbbd"));
-		System.out.println("a longestPalindrome:"+longestPalindrome("a"));
-		System.out.println("aaaaa longestPalindrome:"+longestPalindrome("aaaaa"));
-		System.out.println("abcda longestPalindrome:"+longestPalindrome("abcda"));
-		System.out.println("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz" +
-				" longestPalindrome:"+longestPalindrome("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"));
-	
+//		System.out.println("babad longestPalindrome:"+longestPalindrome("babad"));
+//		System.out.println("cbbd longestPalindrome:"+longestPalindrome("cbbd"));
+//		System.out.println("a longestPalindrome:"+longestPalindrome("a"));
+//		System.out.println("aaaaa longestPalindrome:"+longestPalindrome("aaaaa"));
+//		System.out.println("abcda longestPalindrome:"+longestPalindrome("abcda"));
+//		System.out.println("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz" +
+//				" longestPalindrome:"+longestPalindrome("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"));
+//	
+//		
+//		
+//		System.out.println("babad longestPalindrome:"+longestPalindrome2("babad"));
+//		System.out.println("cbbd longestPalindrome:"+longestPalindrome2("cbbd"));
+//		System.out.println("a longestPalindrome:"+longestPalindrome2("a"));
+//		System.out.println("aaaaa longestPalindrome:"+longestPalindrome2("aaaaa"));
+//		System.out.println("abcda longestPalindrome:"+longestPalindrome2("abcda"));
+//		System.out.println("babadada longestPalindrome:"+longestPalindrome2("babadada"));
+//		System.out.println("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz" +
+//				" longestPalindrome:"+longestPalindrome2("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"));
+
 		
 		
-		System.out.println("babad longestPalindrome:"+longestPalindrome2("babad"));
-		System.out.println("cbbd longestPalindrome:"+longestPalindrome2("cbbd"));
-		System.out.println("a longestPalindrome:"+longestPalindrome2("a"));
-		System.out.println("aaaaa longestPalindrome:"+longestPalindrome2("aaaaa"));
-		System.out.println("abcda longestPalindrome:"+longestPalindrome2("abcda"));
-		System.out.println("babadada longestPalindrome:"+longestPalindrome2("babadada"));
+
+		System.out.println("babad longestPalindrome:"+longestPalindrome3("babad"));
+		System.out.println("cbbd longestPalindrome:"+longestPalindrome3("cbbd"));
+		System.out.println("a longestPalindrome:"+longestPalindrome3("a"));
+		System.out.println("aaaaa longestPalindrome:"+longestPalindrome3("aaaaa"));
+		System.out.println("abcda longestPalindrome:"+longestPalindrome3("abcda"));
+		System.out.println("babadada longestPalindrome:"+longestPalindrome3("babadada"));
 		System.out.println("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz" +
-				" longestPalindrome:"+longestPalindrome2("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"));
+				" longestPalindrome:"+longestPalindrome3("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"));
 
 		
 	}
@@ -95,6 +107,55 @@ public class Solution {
 						}
 					}
 				}
+			}
+			
+		}
+		return result;
+	}
+	
+	
+	//昨天查看答案之后的方法
+	public static String longestPalindrome3(String s){
+		String result="";
+		if (s != null && !s.isEmpty()){
+			result = s.substring(0,1);
+			int length = s.length();
+			for (int i = 0; i< length;i++) {
+				//以i为中心点（回文字符是长度是单数），向两边扩展，如果两边的字符对应相同，则继续是回文字符
+				int start = i;
+				int end = i;
+				int n = start;
+				int m = end;
+				String sub = "";
+				while(n >= 0 && m < length){
+					if (s.charAt(n) != s.charAt(m)){
+						break;
+					} else {
+						n--;
+						m++;
+					}
+				}
+				sub = s.substring(n+1, m);
+				if (result.length() < sub.length()){
+					result = sub;
+				}
+				//以i与i+1为中心点（回文字符是长度是双数），向两边扩展，如果两边的字符对应相同，则继续是回文字符
+				end = i+1;
+				n = start;
+				m = end;
+				while(n >= 0 && m < length){
+					if (s.charAt(n) != s.charAt(m)){
+						break;
+					} else {
+						n--;
+						m++;
+					}
+				}
+				sub = s.substring(n+1, m);
+				if (result.length() < sub.length()){
+					result = sub;
+				}
+				
 			}
 			
 		}
